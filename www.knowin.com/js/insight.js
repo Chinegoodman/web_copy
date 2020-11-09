@@ -1,0 +1,1 @@
+"use strict";function isMobile(){/(iPhone|iPad|iPod|iOS|Android)/i.test(navigator.userAgent)&&(document.getElementById("inSightVideo").src="https://dl.knowin.com/knowin/video/mobile/index/v_insight.mp4",document.getElementById("inSightVideo").poster="https://img.knowin.com/knowin/images/mobile/index/v_insight.jpg")}isMobile(),playVideo("inSightVideo","inSightVideoWrap");
