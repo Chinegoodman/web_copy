@@ -1,3 +1,51 @@
 .currentlink {
-    text-decoration: underline;
+  text-decoration: underline;
+}
+.header,
+.contents,
+.footer {
+  width: 960px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+.header .imgbox {
+  float: left;
+  width: 110px;
+  height: 30px;
+  padding: 15px 0 15px 132px;
+}
+.header .links {
+  float: right;
+  padding-right: 130px;
+  display: flex;
+}
+.header .links a {
+  text-align: center;
+  text-decoration: none;
+  height: 60px;
+  line-height: 60px;
+  font-size: 14px;
+  color: #333333;
+  width: 85px;
+}
+.header .links a.currentlink {
+  border-bottom: 2px solid #0071bc;
+  color: #0071bc;
+}
+.footer {
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+  background: #232A32;
+}
+.footer .footercontent {
+  margin: 0 auto;
+  width: 960px;
+  height: 100px;
+  color: #fff;
+  padding: 0 50px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  font-size: 13px;
 }
