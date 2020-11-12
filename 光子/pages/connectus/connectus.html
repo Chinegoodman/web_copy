@@ -8,6 +8,14 @@
     <link rel="stylesheet" href="./../../css/reset.css">
     <link rel="stylesheet" href="./../../css/common.css">
     <link rel="stylesheet" href="./../../css/connectus.css">
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <script src="https://unpkg.com/swiper/swiper-bundle.js">
+    </script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js">
+    </script>
+
 </head>
 
 <body>
@@ -24,6 +32,30 @@
                 <a class="currentlink" target="_self" href="javascript:void(0)">联系我们</a>
             </div>
         </div>
+        <div class="swiperwrap">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <img src="./../../imgs/banner1.jpg" alt="" srcset="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./../../imgs/banner2.jpg" alt="" srcset="">
+                    </div>
+                    <div class="swiper-slide">
+                        <img src="./../../imgs/banner3.jpg" alt="" srcset="">
+                    </div>
+                </div>
+                <!-- 如果需要分页器 -->
+                <div class="swiper-pagination"></div>
+
+                <!-- 如果需要导航按钮 -->
+                <!-- <div class="swiper-button-prev"></div> -->
+                <!-- <div class="swiper-button-next"></div> -->
+
+                <!-- 如果需要滚动条 -->
+                <!-- <div class="swiper-scrollbar"></div> -->
+            </div>
+        </div>
         <div class="contents">
             contentscontents
         </div>
@@ -38,6 +70,7 @@
             </div>
         </div>
     </div>
+    <script src="./../../js/common.js"></script>
 </body>
 
 </html>

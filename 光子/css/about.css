@@ -1,0 +1,133 @@
+.contents > .wrap:hover {
+  background-color: rgba(242, 242, 242, 0.4);
+}
+.contents .cont_li {
+  width: 960px;
+  margin: 0 auto;
+  padding: 50px 150px;
+  box-sizing: border-box;
+}
+.contents .cont_li > p {
+  color: #0071bc;
+  font-size: 30px;
+  margin: 0 auto 9px;
+  text-align: center;
+}
+.contents .cont_li > span {
+  display: block;
+  color: #666666;
+  font-size: 12px;
+  margin: 0 auto 40px;
+  text-align: center;
+}
+.contents .cont_li .cont_lictnt {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.contents .cont_li .cont_lictnt .li {
+  width: 33.33%;
+  height: 175px;
+  padding: 23px 0 0;
+  box-sizing: border-box;
+  position: relative;
+}
+.contents .cont_li .cont_lictnt .li img {
+  width: 54px;
+  height: 44px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto 13px;
+}
+.contents .cont_li .cont_lictnt .li p {
+  font-size: 18px;
+  color: #333333;
+  text-align: center;
+  margin: 0 auto 14px;
+}
+.contents .cont_li .cont_lictnt .li span {
+  display: block;
+  width: 120px;
+  height: 48px;
+  line-height: 16px;
+  color: #999999;
+  font-size: 12px;
+  margin: 13px auto 0;
+}
+.contents .cont_li .cont_lictnt .li .float {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(48, 48, 48, 0.94);
+  color: rgba(255, 255, 255, 0.78);
+  font-size: 14px;
+  padding: 32px 22px;
+  box-sizing: border-box;
+}
+.contents .cont_li .cont_lictnt .li:hover .float {
+  display: block;
+}
+.contents .cont_li2 {
+  width: 960px;
+  margin: 0 auto;
+  padding: 50px 150px;
+  box-sizing: border-box;
+}
+.contents .cont_li2 > p {
+  color: #0071bc;
+  font-size: 30px;
+  margin: 0 auto 9px;
+  text-align: center;
+}
+.contents .cont_li2 > span {
+  display: block;
+  color: #666666;
+  font-size: 12px;
+  margin: 0 auto 22px;
+  text-align: center;
+}
+.contents .cont_li2 .cont_lictnt {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.contents .cont_li2 .cont_lictnt .li {
+  width: 33.33%;
+  height: 175px;
+  padding: 23px 0 0;
+  box-sizing: border-box;
+  position: relative;
+}
+.contents .cont_li2 .cont_lictnt .li:hover {
+  transform: scale(1.5, 1.5);
+}
+.contents .cont_li2 .cont_lictnt .li p {
+  font-size: 18px;
+  color: #333333;
+  margin: 0 auto 12px;
+  width: 130px;
+  height: 80px;
+  padding-top: 24px;
+  box-sizing: border-box;
+  text-align: center;
+  background: url('../imgs/about/scqjbg.png') #fff;
+  background-size: cover;
+  font-size: 16px;
+  line-height: 16px;
+}
+.contents .cont_li2 .cont_lictnt .li span {
+  display: block;
+  width: 120px;
+  height: 48px;
+  line-height: 16px;
+  color: #666666;
+  font-size: 12px;
+  margin: 12px auto 0;
+  text-align: center;
+}
+.contents .cont_li2 .cont_lictnt .li.li2 p {
+  padding-top: 32px;
+}

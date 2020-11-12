@@ -2,7 +2,7 @@
   text-decoration: underline;
 }
 .header,
-.contents,
+.swiperwrap,
 .footer {
   width: 960px;
   margin: 0 auto;
@@ -48,4 +48,16 @@
   display: flex;
   justify-content: space-between;
   font-size: 13px;
+}
+.swiper-container {
+  width: 100%;
+  height: 430px;
+}
+.swiper-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.contents > .wrap:hover {
+  background-color: rgba(242, 242, 242, 0.4);
 }
