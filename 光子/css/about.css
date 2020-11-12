@@ -4,7 +4,7 @@
 .contents .cont_li {
   width: 960px;
   margin: 0 auto;
-  padding: 50px 150px;
+  padding: 50px 50px;
   box-sizing: border-box;
 }
 .contents .cont_li > p {
@@ -73,7 +73,7 @@
 .contents .cont_li2 {
   width: 960px;
   margin: 0 auto;
-  padding: 50px 150px;
+  padding: 50px 50px;
   box-sizing: border-box;
 }
 .contents .cont_li2 > p {
