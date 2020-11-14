@@ -23,3 +23,5 @@ yarn-error.log*
 
 # Local History 插件 不提交git环境
 .history
+
+/vue-guangzi/.history
