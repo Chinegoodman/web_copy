@@ -25,3 +25,5 @@ yarn-error.log*
 .history
 
 /vue-guangzi/.history
+/vue-guangzi/dist
+/vue-guangzi/node_modules
